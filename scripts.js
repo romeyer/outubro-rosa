@@ -349,7 +349,7 @@ function showSteps() {
         };
         
         var isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-        var url = isLocal ? 'http://localhost:3000/proxy' : 'https://seu-dominio.com/api/proxy';
+        var url = isLocal ? 'http://localhost:3000/proxy' : 'https://script.google.com/macros/s/AKfycbxaXeRXRDtJ5OP97FqZ4VAuuOAxWe8QsLS5i5qVQk6xN1zZgyQ-DxpElDHWxWJ3SGimjw/exec';
 
         
         fetch(url, {
